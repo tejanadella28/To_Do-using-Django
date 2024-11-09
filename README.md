@@ -35,8 +35,8 @@ pip install django
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/your-username/todo-list-django.git
-    cd todo-list-django
+    git clone https://github.com/tejanadella28/To_Do-using-Django.git
+    cd To_Do-using-Django
     ```
 
 2. **Create a virtual environment** (optional but recommended):
@@ -46,19 +46,13 @@ pip install django
     source venv/bin/activate  # For Windows use `venv\Scripts\activate`
     ```
 
-3. **Install dependencies**:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. **Apply database migrations**:
+3. **Apply database migrations**:
 
     ```bash
     python manage.py migrate
     ```
 
-5. **Create a superuser** (optional, for accessing the Django admin panel):
+4. **Create a superuser** (optional, for accessing the Django admin panel):
 
     ```bash
     python manage.py createsuperuser
@@ -66,22 +60,20 @@ pip install django
 
     Follow the prompts to create a user.
 
-6. **Run the server**:
+5. **Run the server**:
 
     ```bash
     python manage.py runserver
     ```
 
-7. **Access the app**:
+6. **Access the app**:
 
     Open your browser and go to [http://127.0.0.1:8000](http://127.0.0.1:8000) to start using the To-Do List app.
 
 ## Usage
-
-1. **Sign Up / Login**: Users can create an account or log in to access their personalized to-do list.
-2. **Add Task**: Click on the "Add Task" button to add a new to-do item.
-3. **Update Task**: Mark tasks as completed or edit their details.
-4. **Delete Task**: Remove tasks that are no longer needed.
+1. **Add Task**: Click on the "Add Task" button to add a new to-do item.
+2. **Update Task**: Mark tasks as completed or edit their details.
+3. **Delete Task**: Remove tasks that are no longer needed.
 
 ## Folder Structure
 
@@ -117,10 +109,6 @@ We welcome contributions! If you'd like to contribute to this project, please fo
 4. Commit your changes (`git commit -m 'Add feature'`).
 5. Push to the branch (`git push origin feature-branch`).
 6. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
