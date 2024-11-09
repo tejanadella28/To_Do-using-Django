@@ -2,12 +2,12 @@
 
 This is a simple To-Do List web application built using Django. The app allows users to add, update, and delete tasks, helping them to stay organized and manage their daily activities.
 
-## Features
+## Features:-
 
 - **Task Management**: Add, update, delete, and mark tasks as completed.
 - **Database Storage**: Tasks are stored in a database using Django’s ORM.
 
-## Technologies Used
+## Technologies Used:-
 
 - **Django**: A high-level Python web framework.
 - **SQLite**: Default database used for this app.
@@ -110,6 +110,6 @@ We welcome contributions! If you'd like to contribute to this project, please fo
 5. Push to the branch (`git push origin feature-branch`).
 6. Open a pull request.
 
----
+------
 
 Feel free to modify this README as needed. Happy coding!
